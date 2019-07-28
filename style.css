@@ -1,0 +1,58 @@
+
+
+.firstPStyle {
+    margin-top: 50px;
+    margin-left: 40px;
+    border: solid black 2px;
+    padding: 10px;
+    width: max-content;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+.secondPStyle {
+    color: blue;
+    border: dashed #4e42f4 5px;
+}
+
+#myid {
+    color: green;
+}
+
+.Style3 {
+    background-color: yellow;
+}
+
+/* 1200 x 900 pixels is a good size */
+body {
+    background-image: url(mountain.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: fantasy;
+}
+/* navigation bar style*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #3c2814d1;
+    border-radius: 10px;
+    box-shadow: 6px 7px 10px 2px black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
